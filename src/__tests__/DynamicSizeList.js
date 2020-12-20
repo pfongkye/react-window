@@ -2,7 +2,7 @@ import React, {
   createRef,
   forwardRef,
   PureComponent,
-  unstable_Profiler as Profiler,
+  Profiler,
 } from 'react';
 import { findDOMNode, render } from 'react-dom';
 import { DynamicSizeList } from '..';
